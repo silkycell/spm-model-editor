@@ -1,3 +1,8 @@
-[gd_scene format=3 uid="uid://o7p73h0p6fn"]
+[gd_scene load_steps=2 format=3 uid="uid://o7p73h0p6fn"]
+
+[ext_resource type="Script" uid="uid://ddx7fjumivvin" path="res://addons/Rainbow.ImgLib/TPLInterfacer.cs" id="1_ig7tw"]
 
 [node name="Main" type="Node3D"]
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("1_ig7tw")
